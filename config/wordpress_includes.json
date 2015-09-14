@@ -1,0 +1,8 @@
+{
+	"controller": "file_scan",
+	"file_name": "",
+	"type": "regex",
+	"_comment": "xpath or query or regex; regex preg_match-based",
+	"value": "/wp-includes/",
+	"message": "Wordpress includes folder detected."
+}

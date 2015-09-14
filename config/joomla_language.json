@@ -1,0 +1,9 @@
+{
+	"controller": "file_scan",
+	"file_name": "language/en-GB/en-GB.xml",
+	"type": "xml",
+	"_comment": "xpath or query or regex or xml",
+	"value": "/metafile/version",
+	"message": "Joomla Detected detected: ",
+	"software": "joomla"
+}

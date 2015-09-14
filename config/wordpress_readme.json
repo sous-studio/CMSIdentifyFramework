@@ -1,0 +1,9 @@
+{
+	"controller": "file_scan",
+	"file_name": "readme.html",
+	"type": "xpath",
+	"_comment": "xpath or query or regex",
+	"value": "/html/body/h1[1]",
+	"message": "Wordpress detected: ",
+	"software": "wordpress"
+}
