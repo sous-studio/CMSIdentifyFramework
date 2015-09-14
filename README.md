@@ -12,9 +12,16 @@ php cmsidentify.php http://wordpress.org (without trailing slash)
 
 # Rules
 
-./config directory contains JSON rules. Rules are variable, with common properties such as:
+config directory contains JSON rules. Rules are variable, with common properties such as:
 
 controller - name of controller (eg. file_scan for file_scan.php)
 file_name  - path to request beyond base URL
 software   - name of software (see versions.json)
 message    - default message to display if we have a hit
+
+# TODO
+
+- Write "smart-grabbing" function to minimize HTTP requests
+- Add scoring system
+- Add more fingerprints
+- Perhaps turn it into OOP class?
