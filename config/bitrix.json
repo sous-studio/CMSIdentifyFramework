@@ -1,0 +1,9 @@
+{
+	"controller": "file_scan",
+	"file_name": "bitrix/admin/index.php#authorize",
+	"type": "regex",
+	"_comment": "xpath or query or regex",
+	"value": "/bitrix/",
+	"message": "Bitrix detected. ",
+	"software": "bitrix"
+}
